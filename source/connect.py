@@ -14,3 +14,20 @@ output = query(
         "question": "Hey, how are you?",
     }
 )
+
+
+output = query(
+    {
+        "question": "What are the current AWS certificates you can get?",
+        "memory_key": "chat_history",
+        "input_key": "input",
+    }
+)
+
+output = query(
+    {
+        "question": "What are the newest advancements in Artificial Intelligence technology?",
+        "memory_key": "chat_history",
+        "input_key": "input",
+    }
+)
